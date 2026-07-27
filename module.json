@@ -1,0 +1,69 @@
+{
+  "id": "wfrp4e-yuuris-extra-content",
+  "title": "WFRP4e - yuuri's Extra Content",
+  "authors": [
+    {
+      "name": "yuuri",
+      "discord": "yuuri_was_taken",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "yuuris-items",
+      "label": "yuuri's items",
+      "path": "packs/yuuris-items.db",
+      "type": "Item",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "yuuris-macros",
+      "label": "yuuri's macros",
+      "path": "packs/yuuris-macros.db",
+      "type": "Macro",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "esmodules": [
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "8",
+          "verified": "9.6.1"
+        }
+      }
+    ],
+    "modules": [
+      {
+        "id": "wfrp4e-core",
+        "type": "module",
+        "manifest": "https://foundry-c7-manifests.s3.us-east-2.amazonaws.com/wfrp4e-core/module.json",
+        "compatibility": {
+          "minimum": "7",
+          "verified": "8.0.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/Biyoori/wfrp4e-yuuris-extra-content.git",
+  "manifest": "https://github.com/Biyoori/wfrp4e-yuuris-extra-content/releases/latest/download/module.json",
+  "download": "https://github.com/Biyoori/wfrp4e-yuuris-extra-content/releases/latest/download/wfrp4e-yuuris-extra-content.zip"
+}
